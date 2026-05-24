@@ -1,0 +1,5 @@
+n = int(input())
+required = list(map(int, input().split()))
+learned = list(map(int, input().split()))
+
+print(sum(required) - sum(learned))
